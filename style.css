@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.sign{
+	background:rgba(255,255,255,0.2);
+}
+.sign_x{
+	width: 40vw;
+	background: #CC6600;
+}
+.red{
+	color:red;
+}
+#numbers{
+	float: left;
+}
+#signs{
+	float:right;
+}
+button{
+	width:20vw;
+	height: 20vh;
+	display:block;
+	float: left;
+	border:none;
+	font-size: 8vh;
+	color:white;
+	background:rgba(255,255,255,0.1);
+}
+button:focus{
+	outline:0;
+}
+button:hover{
+	outline:0;
+	color:grey;
+	cursor:pointer;
+}
+.screen{
+	height: 10vh;
+	text-align: right;
+	line-height: 10vh;
+	background: #0080FF;
+}
+#screen_one{
+  	font-size: 10vh;
+}
+#screen_two{
+  	font-size: 6vh;
+}
+#calculator{
+	width:100vw;
+	height: 100vh;
+	background: black;
+	color:white;
+}
+.border{
+  border-right:0.1vw solid rgba(0,0,0,0.2);
+  border-bottom:0.1vw solid rgba(0,0,0,0.2);
+}
+.border_two{
+  border-bottom:0.1vw solid rgba(0,0,0,0.2);
+}
